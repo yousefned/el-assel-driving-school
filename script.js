@@ -8,12 +8,12 @@ const translations = {
         nav_booking: "الحجز",
         nav_contact: "اتصل بنا",
 
-        home_title: "EL ASSEL Driving School",
+        home_title: "EL ASLE Driving School",
         home_subtitle: "خبرة منذ 2014 في تكوين السائقين باحترافية، انضباط، ونتائج ممتازة.",
         btn_book: "احجز الآن",
         btn_contact: "اتصل بنا",
 
-        why_us_title: "لماذا تختار EL ASSEL؟",
+        why_us_title: "لماذا تختار EL ASLE؟",
         feat1_title: "خبرة أكثر من 10 سنوات",
         feat1_text: "تكوين احترافي منذ سنة 2014.",
         feat2_title: "مدربون محترفون",
@@ -29,12 +29,12 @@ const translations = {
         contact_phone: "📞 0776120968 / 0792437124",
         contact_hours: "⏱️ كل يوم من 08:00 إلى 20:00 (ما عدا الجمعة)",
 
-        footer_text: "© 2024 EL ASSEL Driving School – جميع الحقوق محفوظة",
+        footer_text: "© 2024 EL ASLE Driving School – جميع الحقوق محفوظة",
 
         about_title: "من نحن",
-        about_subtitle: "EL ASSEL Driving School – خبرة، انضباط، ونتائج مضمونة.",
+        about_subtitle: "EL ASLE Driving School – خبرة، انضباط، ونتائج مضمونة.",
         about_story_title: "قصتنا",
-        about_story_text: "تأسست مدرسة EL ASSEL Driving School سنة 2014 على يد المدرب قادة، بهدف تقديم تكوين احترافي يجمع بين الخبرة، الانضباط، والنتائج المضمونة. بفضل برامج تدريبية متكاملة تشمل الجانب النظري والعملي، أصبحت المدرسة واحدة من أبرز مدارس تعليم السياقة في عين الترك – وهران.",
+        about_story_text: "تأسست مدرسة EL ASLE Driving School سنة 2014 على يد المدرب قادة، بهدف تقديم تكوين احترافي يجمع بين الخبرة، الانضباط، والنتائج المضمونة. بفضل برامج تدريبية متكاملة تشمل الجانب النظري والعملي، أصبحت المدرسة واحدة من أبرز مدارس تعليم السياقة في عين الترك – وهران.",
         about_mission_title: "رسالتنا",
         about_mission_text: "نهدف إلى تكوين سائقين مسؤولين، يحترمون قانون المرور، ويقودون بثقة وأمان على الطريق. نركز على الجانب التطبيقي والنفسي للسائق، لضمان جاهزيته الكاملة قبل الامتحان وبعده.",
         about_team_title: "فريق العمل",
@@ -85,12 +85,12 @@ const translations = {
         nav_booking: "Booking",
         nav_contact: "Contact",
 
-        home_title: "EL ASSEL Driving School",
+        home_title: "EL ASLE Driving School",
         home_subtitle: "Training drivers since 2014 with professionalism, discipline, and excellent results.",
         btn_book: "Book Now",
         btn_contact: "Contact Us",
 
-        why_us_title: "Why choose EL ASSEL?",
+        why_us_title: "Why choose EL ASLE?",
         feat1_title: "Over 10 years of experience",
         feat1_text: "Professional training since 2014.",
         feat2_title: "Professional instructors",
@@ -109,7 +109,7 @@ const translations = {
         footer_text: "© 2024 EL ASSEL Driving School – All rights reserved.",
 
         about_title: "About Us",
-        about_subtitle: "EL ASSEL Driving School – Experience, discipline, and guaranteed results.",
+        about_subtitle: "EL ASLE Driving School – Experience, discipline, and guaranteed results.",
         about_story_title: "Our Story",
         about_story_text: "EL ASSEL Driving School was founded in 2014 by instructor Kadda, with the goal of providing professional training that combines experience, discipline, and guaranteed results. Thanks to comprehensive programs covering both theory and practice, the school has become one of the leading driving schools in Aïn El Turck – Oran.",
         about_mission_title: "Our Mission",
