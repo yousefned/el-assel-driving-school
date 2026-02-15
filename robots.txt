@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://yousefned.github.io/el-assel-driving-school/sitemap.xml
