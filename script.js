@@ -25,7 +25,7 @@ const translations = {
 
         contact_info_title: "معلومات الاتصال",
         contact_info_title2: "معلومات الاتصال",
-        contact_address: "📍 وهران – عين الترك – مقابل دار الشباب",
+        contact_address: "📍 وهران – عين الترك – مقابل دار الشباب و مكتبة يوسفي",
         contact_phone: "📞 0776120968 / 0792437124",
         contact_hours: "⏱️ كل يوم من 08:00 إلى 20:00 (ما عدا الجمعة)",
 
@@ -102,7 +102,7 @@ const translations = {
 
         contact_info_title: "Contact Information",
         contact_info_title2: "Contact Information",
-        contact_address: "📍 Oran – Aïn El Turck – in front of the Youth Center",
+        contact_address: "📍 Oran – Aïn El Turck – in front of the Youth Center ",
         contact_phone: "📞 0776120968 / 0792437124",
         contact_hours: "⏱️ Every day from 08:00 to 20:00 (except Friday)",
 
