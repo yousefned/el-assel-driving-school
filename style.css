@@ -1,0 +1,347 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Cairo", system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+}
+
+body {
+    background-color: #050505;
+    color: #f5f5f5;
+    line-height: 1.7;
+}
+
+/* Header */
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 8%;
+    background: rgba(0, 0, 0, 0.95);
+    border-bottom: 1px solid #333;
+    position: sticky;
+    top: 0;
+    z-index: 100;
+}
+
+.logo {
+    font-size: 1.6rem;
+    font-weight: 700;
+    color: #d4af37;
+    letter-spacing: 2px;
+}
+
+.nav a {
+    margin: 0 10px;
+    color: #ddd;
+    text-decoration: none;
+    font-size: 0.95rem;
+    transition: 0.2s;
+}
+
+.nav a:hover,
+.nav a.active {
+    color: #d4af37;
+}
+
+.lang-switch {
+    color: #ddd;
+    font-size: 0.9rem;
+}
+
+.lang-switch span {
+    cursor: pointer;
+}
+
+.active-lang {
+    color: #d4af37;
+    font-weight: 700;
+}
+
+/* Hero Gradient */
+
+.hero-gradient {
+    padding: 90px 8% 70px;
+    background: radial-gradient(circle at top, #222 0, #050505 55%);
+    text-align: right;
+}
+
+.hero-content h1 {
+    font-size: 2.6rem;
+    margin-bottom: 15px;
+    color: #ffffff;
+}
+
+.hero-content p {
+    font-size: 1.05rem;
+    color: #cccccc;
+    max-width: 520px;
+}
+
+.hero-buttons {
+    margin-top: 25px;
+}
+
+.btn-gold,
+.btn-outline {
+    display: inline-block;
+    padding: 10px 22px;
+    margin-left: 10px;
+    border-radius: 999px;
+    font-size: 0.95rem;
+    text-decoration: none;
+    transition: 0.2s;
+}
+
+.btn-gold {
+    background: linear-gradient(135deg, #d4af37, #b8901f);
+    color: #000;
+    font-weight: 600;
+}
+
+.btn-gold:hover {
+    filter: brightness(1.1);
+}
+
+.btn-outline {
+    border: 1px solid #d4af37;
+    color: #d4af37;
+}
+
+.btn-outline:hover {
+    background: #d4af37;
+    color: #000;
+}
+
+/* Sections */
+
+section {
+    padding: 50px 8%;
+}
+
+.features h2,
+.contact-info h2,
+.page-header h1,
+.about-section h2,
+.services-section h2,
+.booking-section h1,
+.contact-section h2 {
+    margin-bottom: 20px;
+    color: #d4af37;
+}
+
+/* Features */
+
+.features {
+    background: #0b0b10;
+}
+
+.features-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+    gap: 20px;
+    margin-top: 20px;
+}
+
+.feature-box {
+    background: #111119;
+    padding: 18px;
+    border-radius: 10px;
+    border: 1px solid #222;
+}
+
+.feature-box h3 {
+    margin-bottom: 8px;
+    color: #d4af37;
+}
+
+.feature-box p {
+    color: #ccc;
+    font-size: 0.95rem;
+}
+
+/* Contact info */
+
+.contact-info {
+    text-align: center;
+    background: #050505;
+}
+
+.contact-info p {
+    margin: 5px 0;
+}
+
+/* Page header */
+
+.page-header {
+    text-align: center;
+    background: #0b0b10;
+    padding-top: 70px;
+    padding-bottom: 40px;
+}
+
+.page-header p {
+    color: #ccc;
+}
+
+/* About */
+
+.about-section {
+    background: #050505;
+}
+
+.about-section p {
+    margin-bottom: 20px;
+    color: #ddd;
+}
+
+.team-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+    gap: 20px;
+    margin-top: 15px;
+}
+
+.team-card {
+    background: #111119;
+    padding: 18px;
+    border-radius: 10px;
+    border: 1px solid #222;
+}
+
+.team-card h3 {
+    margin-bottom: 8px;
+    color: #d4af37;
+}
+
+/* Services */
+
+.services-section {
+    background: #050505;
+}
+
+.service-block {
+    background: #111119;
+    padding: 18px;
+    border-radius: 10px;
+    border: 1px solid #222;
+    margin-bottom: 15px;
+}
+
+.service-block h2 {
+    margin-bottom: 8px;
+}
+
+/* Booking */
+
+.booking-section {
+    background: #050505;
+    display: flex;
+    justify-content: center;
+}
+
+.booking-form {
+    background: #111119;
+    padding: 25px;
+    border-radius: 12px;
+    border: 1px solid #222;
+    width: 100%;
+    max-width: 450px;
+}
+
+.form-group {
+    margin-bottom: 15px;
+}
+
+.form-group label {
+    display: block;
+    margin-bottom: 5px;
+    color: #d4af37;
+    font-size: 0.95rem;
+}
+
+.form-group input,
+.form-group select {
+    width: 100%;
+    padding: 8px 10px;
+    border-radius: 6px;
+    border: 1px solid #333;
+    background: #050505;
+    color: #f5f5f5;
+    font-size: 0.95rem;
+}
+
+/* Contact page */
+
+.contact-section {
+    background: #050505;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+    gap: 20px;
+}
+
+.contact-card,
+.map-card {
+    background: #111119;
+    padding: 20px;
+    border-radius: 10px;
+    border: 1px solid #222;
+}
+
+.contact-buttons {
+    margin-top: 15px;
+}
+
+.contact-buttons .btn-gold,
+.contact-buttons .btn-outline {
+    margin-bottom: 8px;
+}
+
+.map-placeholder {
+    margin-top: 10px;
+    padding: 40px;
+    border-radius: 8px;
+    border: 1px dashed #444;
+    text-align: center;
+    color: #777;
+    font-size: 0.9rem;
+}
+
+/* Footer */
+
+.footer {
+    text-align: center;
+    padding: 15px;
+    background: #000;
+    border-top: 1px solid #222;
+    font-size: 0.85rem;
+    color: #777;
+}
+
+/* Responsive */
+
+@media (max-width: 768px) {
+    .header {
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 10px;
+    }
+
+    .nav {
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .nav a {
+        margin: 5px 8px;
+    }
+
+    .hero-gradient {
+        padding-top: 60px;
+    }
+
+    .hero-content h1 {
+        font-size: 2rem;
+    }
+}
