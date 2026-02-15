@@ -43,29 +43,42 @@
 
     <link rel="icon" type="image/png" href="favicon.png">
 
-    <!-- 🔥 هذا السطر هو الذي يعيد التصميم -->
     <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
 
     <header class="header">
+
+        <!-- زر القائمة للهاتف -->
+        <div class="menu-btn" id="menu-btn">☰</div>
+
         <div class="logo">EL ASLE</div>
 
         <nav class="nav">
-    <a href="index.html" data-key="nav_home" class="active">الرئيسية</a>
-    <a href="about.html" data-key="nav_about">من نحن</a>
-    <a href="services.html" data-key="nav_services">الخدمات</a>
-    <a href="documents.html" data-key="nav_documents">ملف التكوين</a>
-    <a href="booking.html" data-key="nav_booking">الحجز</a>
-    <a href="contact.html" data-key="nav_contact">اتصل بنا</a>
-</nav>
+            <a href="index.html" data-key="nav_home" class="active">الرئيسية</a>
+            <a href="about.html" data-key="nav_about">من نحن</a>
+            <a href="services.html" data-key="nav_services">الخدمات</a>
+            <a href="documents.html" data-key="nav_documents">ملف التكوين</a>
+            <a href="booking.html" data-key="nav_booking">الحجز</a>
+            <a href="contact.html" data-key="nav_contact">اتصل بنا</a>
+        </nav>
 
         <div class="lang-switch">
             <span id="ar-btn" class="active-lang">AR</span> |
             <span id="en-btn">EN</span>
         </div>
     </header>
+
+    <!-- القائمة الجانبية للهاتف -->
+    <div class="mobile-menu" id="mobile-menu">
+        <a href="index.html">الرئيسية</a>
+        <a href="about.html">من نحن</a>
+        <a href="services.html">الخدمات</a>
+        <a href="documents.html">ملف التكوين</a>
+        <a href="booking.html">الحجز</a>
+        <a href="contact.html">اتصل بنا</a>
+    </div>
 
     <section class="hero-gradient">
         <div class="hero-content">

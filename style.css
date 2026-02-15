@@ -387,3 +387,54 @@ section {
     color: #ccc;
     font-size: 0.95rem;
 }
+/* زر القائمة */
+.menu-btn {
+    display: none;
+    font-size: 28px;
+    cursor: pointer;
+    padding: 10px;
+    color: white;
+}
+
+/* القائمة الجانبية */
+.mobile-menu {
+    position: fixed;
+    top: 0;
+    right: -250px;
+    width: 230px;
+    height: 100%;
+    background: #222;
+    padding-top: 60px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    transition: 0.3s;
+    z-index: 9999;
+}
+
+.mobile-menu a {
+    color: white;
+    text-decoration: none;
+    padding: 10px 20px;
+    font-size: 18px;
+}
+
+.mobile-menu a:hover {
+    background: #444;
+}
+
+/* إظهار القائمة */
+.mobile-menu.active {
+    right: 0;
+}
+
+/* الهاتف */
+@media (max-width: 768px) {
+    .menu-btn {
+        display: block;
+    }
+
+    .nav {
+        display: none;
+    }
+}

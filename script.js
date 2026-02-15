@@ -240,3 +240,9 @@ function sendWhatsApp(event) {
     window.open(url, "_blank");
     return false;
 }
+const menuBtn = document.getElementById("menu-btn");
+const mobileMenu = document.getElementById("mobile-menu");
+
+menuBtn.addEventListener("click", () => {
+    mobileMenu.classList.toggle("active");
+});
