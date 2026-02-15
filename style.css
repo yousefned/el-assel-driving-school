@@ -345,3 +345,45 @@ section {
         font-size: 2rem;
     }
 }
+/* Documents Page (ملف التكوين) */
+
+.documents-section {
+    background: #050505;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+    gap: 20px;
+}
+
+.document-card {
+    background: #111119;
+    padding: 20px;
+    border-radius: 10px;
+    border: 1px solid #222;
+}
+
+.document-card h2 {
+    color: #d4af37;
+    margin-bottom: 15px;
+}
+
+.document-card ul {
+    list-style: none;
+    padding: 0;
+}
+
+.document-card ul li {
+    margin-bottom: 10px;
+    font-size: 1rem;
+    color: #ddd;
+    padding-right: 5px;
+}
+
+.document-note {
+    margin-top: 15px;
+    padding: 15px;
+    background: #0b0b10;
+    border-left: 3px solid #d4af37;
+    border-radius: 6px;
+    color: #ccc;
+    font-size: 0.95rem;
+}
