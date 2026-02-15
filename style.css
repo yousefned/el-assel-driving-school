@@ -322,27 +322,31 @@ section {
 /* Responsive */
 
 @media (max-width: 768px) {
+
+    /* الهيدر يبقى أفقي */
     .header {
-        flex-direction: column;
-        align-items: flex-start;
-        gap: 10px;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
     }
 
+    /* إخفاء القائمة الأصلية */
     .nav {
-        display: flex;
-        flex-wrap: wrap;
+        display: none;
     }
 
-    .nav a {
-        margin: 5px 8px;
+    /* إظهار زر المينو */
+    .menu-btn {
+        display: block;
     }
 
-    .hero-gradient {
-        padding-top: 60px;
-    }
-
+    /* تصغير النصوص قليلاً */
     .hero-content h1 {
-        font-size: 2rem;
+        font-size: 1.8rem;
+    }
+
+    .hero-content p {
+        font-size: 0.9rem;
     }
 }
 /* Documents Page (ملف التكوين) */
@@ -408,7 +412,7 @@ section {
     display: flex;
     flex-direction: column;
     gap: 20px;
-    transition: 0.3s;
+    transition: right 0.3s ease;
     z-index: 9999;
 }
 
@@ -426,6 +430,7 @@ section {
 /* إظهار القائمة */
 .mobile-menu.active {
     right: 0;
+    box-shadow: -4px 0 12px rgba(0,0,0,0.4);
 }
 
 /* الهاتف */
@@ -436,5 +441,38 @@ section {
 
     .nav {
         display: none;
+    }
+}
+body {
+    opacity: 0;
+    transition: opacity 0.3s ease;
+}
+
+body.loaded {
+    opacity: 1;
+}
+@media (max-width: 768px) {
+
+    .hero-content h1 {
+        font-size: 1.8rem;
+    }
+
+    .hero-content p {
+        font-size: 0.9rem;
+        line-height: 1.6;
+    }
+
+    .hero-buttons a {
+        padding: 8px 14px;
+        font-size: 0.9rem;
+    }
+
+    .features-grid {
+        grid-template-columns: 1fr;
+        gap: 15px;
+    }
+
+    .contact-info p {
+        font-size: 0.9rem;
     }
 }

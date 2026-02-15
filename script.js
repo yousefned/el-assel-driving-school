@@ -246,3 +246,11 @@ const mobileMenu = document.getElementById("mobile-menu");
 menuBtn.addEventListener("click", () => {
     mobileMenu.classList.toggle("active");
 });
+document.querySelectorAll(".mobile-menu a").forEach(link => {
+    link.addEventListener("click", () => {
+        mobileMenu.classList.remove("active");
+    });
+});
+window.addEventListener("load", () => {
+    document.body.classList.add("loaded");
+});
