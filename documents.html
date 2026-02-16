@@ -4,25 +4,40 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>ملف التكوين – مدرسة تعليم السياقة EL ASLE</title>
-    <link rel="stylesheet" href="style.css?v=30">
+    <link rel="stylesheet" href="style.css?v=500">
     <link rel="icon" type="image/png" href="favicon.png">
 </head>
 
 <body>
 
-    <header class="header">
-        <div class="logo">EL ASLE</div>
+    <header class="main-header smart-header show">
+    <div class="logo" onclick="window.location.href='index.html'">
+        EL ASLE
+    </div>
 
-        <nav class="nav">
-            <a href="index.html">الرئيسية</a>
-            <a href="about.html">من نحن</a>
-            <a href="services.html">الخدمات</a>
-            <a href="documents.html" class="active">ملف التكوين</a>
-            <a href="booking.html">الحجز</a>
-            <a href="contact.html">اتصل بنا</a>
-        </nav>
-    </header>
+    <nav class="nav">
+        <a href="index.html" class="nav-item">
+            <span class="icon">🏠</span> الرئيسية
+        </a>
 
+        <a href="documents.html" class="nav-item">
+            <span class="icon">📄</span> ملف التكوين
+        </a>
+
+        <a href="contact.html" class="nav-item">
+            <span class="icon">📞</span> اتصل بنا
+        </a>
+
+        <div class="nav-item more">
+            <span class="icon">⋯</span> المزيد
+            <div class="dropdown">
+                <a href="about.html">من نحن</a>
+                <a href="services.html">الخدمات</a>
+                <a href="booking.html">الحجز</a>
+            </div>
+        </div>
+    </nav>
+</header>
     <section class="page-header">
         <h1>ملف التكوين</h1>
         <p>الوثائق المطلوبة للتسجيل في مدرسة تعليم السياقة EL ASLE.</p>
@@ -57,6 +72,6 @@
     <footer class="footer">
         <p>© 2024 EL ASLE Driving School – جميع الحقوق محفوظة</p>
     </footer>
-<script src="script.js?v=30"></script>
+<script src="script.js?v=200"></script>
 </body>
 </html>
