@@ -11,7 +11,7 @@ const translations = {
         btn_book: "احجز الآن",
         btn_contact: "اتصل بنا",
 
-        why_us_title: "لماذا تختار EL ASLE؟",
+        why_us_title: "لماذا تختار الأصل ؟",
         feat1_title: "خبرة أكثر من 10 سنوات",
         feat1_text: "تكوين احترافي منذ سنة 2014.",
         feat2_title: "مدربون محترفون",
