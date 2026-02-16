@@ -129,47 +129,79 @@ body.loaded {
     background: #d4af37;
     color: black;
 }
-
-/* تحسين احترافي للهيدر في الهاتف */
+/* ================================
+   تحسين احترافي للهيدر في الهاتف
+   ================================ */
 @media (max-width: 768px) {
 
+    /* تأثير زجاجي للهيدر */
     .main-header {
-        padding: 8px 10px;
-        background: rgba(0, 0, 0, 0.85);
-        backdrop-filter: blur(6px);
-        border-bottom: 1px solid #222;
-        box-shadow: 0 2px 8px rgba(0,0,0,0.4);
+        padding: 8px 12px;
+        background: rgba(0, 0, 0, 0.55);
+        backdrop-filter: blur(10px) saturate(160%);
+        -webkit-backdrop-filter: blur(10px) saturate(160%);
+        border-bottom: 1px solid rgba(255, 255, 255, 0.08);
+        box-shadow: 0 4px 12px rgba(0,0,0,0.35);
+        animation: headerFade 0.4s ease-out;
     }
 
+    /* أنيميشن خفيف عند الظهور */
+    @keyframes headerFade {
+        from { opacity: 0; transform: translateY(-10px); }
+        to   { opacity: 1; transform: translateY(0); }
+    }
+
+    /* تحسين اللوغو */
     .logo {
         font-size: 1.25rem;
         font-weight: 800;
-        letter-spacing: 0.5px;
+        letter-spacing: 0.6px;
+        color: #d4af37;
+        text-shadow: 0 0 6px rgba(212,175,55,0.4);
     }
 
+    /* القائمة أفقية وخفيفة */
     .nav {
         display: flex;
-        flex-direction: row;      /* تبقى أفقية */
+        flex-direction: row;
         align-items: center;
         justify-content: center;
-        gap: 6px;
-        background: transparent;  /* ما تغطيش الشاشة */
+        gap: 4px;
+        background: transparent;
         padding: 0;
         width: auto;
     }
 
+    /* تحسين شكل العناصر */
     .nav-item {
         padding: 6px 10px;
-        font-size: 0.8rem;
+        font-size: 0.78rem;
         border-radius: 6px;
-        border: 1px solid #d4af37;
-        transition: 0.2s;
+        border: 1px solid rgba(212,175,55,0.6);
+        background: rgba(255,255,255,0.03);
+        backdrop-filter: blur(4px);
+        -webkit-backdrop-filter: blur(4px);
+        transition: 0.25s ease;
     }
 
+    /* تأثير hover جميل */
     .nav-item:hover {
         background: #d4af37;
         color: #000;
-        transform: translateY(-1px);
+        transform: translateY(-2px) scale(1.03);
+        box-shadow: 0 3px 8px rgba(212,175,55,0.35);
+    }
+
+    /* تحسين الأيقونات */
+    .icon {
+        font-size: 1rem;
+        opacity: 0.85;
+        transition: 0.2s;
+    }
+
+    .nav-item:hover .icon {
+        opacity: 1;
+        transform: scale(1.15);
     }
 }
 /* Hero */
