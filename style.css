@@ -130,14 +130,32 @@ body.loaded {
     color: black;
 }
 
-/* الهاتف */
+/* تحسين القائمة في الهاتف */
 @media (max-width: 768px) {
+
+    .main-header {
+        padding: 10px 12px;
+    }
+
     .nav {
-        flex-direction: row; /* تبقى أفقية */
-        gap: 10px;
-        background: transparent; /* ما تغطيش الشاشة */
+        display: flex;
+        flex-direction: row;      /* تبقى أفقية */
+        align-items: center;
+        justify-content: center;
+        gap: 6px;
+        background: transparent;  /* ما تغطيش الشاشة */
         padding: 0;
         width: auto;
+    }
+
+    .nav-item {
+        padding: 6px 10px;        /* حجم مناسب للهاتف */
+        font-size: 0.8rem;
+        border-radius: 6px;
+    }
+
+    .logo {
+        font-size: 1.3rem;        /* تصغير اللوغو قليلاً */
     }
 }
 
