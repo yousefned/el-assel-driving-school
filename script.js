@@ -243,3 +243,21 @@ function sendWhatsApp(event) {
 window.addEventListener("load", () => {
     document.body.classList.add("loaded");
 });
+let lastScroll = 0;
+const header = document.querySelector(".smart-header");
+
+window.addEventListener("scroll", () => {
+    let currentScroll = window.pageYOffset;
+
+    if (currentScroll > lastScroll && currentScroll > 80) {
+        // ينزل → يخفي الهيدر
+        header.classList.add("hide");
+        header.classList.remove("show");
+    } else {
+        // يصعد → يظهر الهيدر
+        header.classList.add("show");
+        header.classList.remove("hide");
+    }
+
+    lastScroll = currentScroll;
+});
