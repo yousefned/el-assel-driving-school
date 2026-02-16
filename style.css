@@ -398,3 +398,16 @@ section {
 .booking-section {
     padding-top: 120px;
 }
+/* Fix booking page background */
+.booking-section,
+.page-header,
+body {
+    background: #0b0b10 !important;
+    color: #fff !important;
+}
+
+/* Fix booking form style */
+.booking-form {
+    background: #111119 !important;
+    border: 1px solid #222 !important;
+}
