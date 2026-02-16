@@ -438,3 +438,34 @@ section {
         font-size: 0.9rem;
     }
 }
+/* تأثير احترافي على أزرار الهيدر */
+.nav a {
+    position: relative;
+    padding: 8px 14px;
+    transition: 0.3s ease;
+}
+
+.nav a:hover {
+    color: #d4af37;
+    transform: translateY(-2px);
+}
+
+.nav a:active {
+    transform: scale(0.95);
+}
+
+/* خط ذهبي يظهر تحت الرابط عند المرور */
+.nav a::after {
+    content: "";
+    position: absolute;
+    bottom: -3px;
+    left: 0;
+    width: 0%;
+    height: 2px;
+    background: #d4af37;
+    transition: 0.3s;
+}
+
+.nav a:hover::after {
+    width: 100%;
+}
