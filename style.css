@@ -130,11 +130,21 @@ body.loaded {
     color: black;
 }
 
-/* تحسين القائمة في الهاتف */
+/* تحسين احترافي للهيدر في الهاتف */
 @media (max-width: 768px) {
 
     .main-header {
-        padding: 10px 12px;
+        padding: 8px 10px;
+        background: rgba(0, 0, 0, 0.85);
+        backdrop-filter: blur(6px);
+        border-bottom: 1px solid #222;
+        box-shadow: 0 2px 8px rgba(0,0,0,0.4);
+    }
+
+    .logo {
+        font-size: 1.25rem;
+        font-weight: 800;
+        letter-spacing: 0.5px;
     }
 
     .nav {
@@ -149,16 +159,19 @@ body.loaded {
     }
 
     .nav-item {
-        padding: 6px 10px;        /* حجم مناسب للهاتف */
+        padding: 6px 10px;
         font-size: 0.8rem;
         border-radius: 6px;
+        border: 1px solid #d4af37;
+        transition: 0.2s;
     }
 
-    .logo {
-        font-size: 1.3rem;        /* تصغير اللوغو قليلاً */
+    .nav-item:hover {
+        background: #d4af37;
+        color: #000;
+        transform: translateY(-1px);
     }
 }
-
 /* Hero */
 .hero-gradient {
     padding: 90px 8% 70px;
